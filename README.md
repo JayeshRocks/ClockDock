@@ -6,6 +6,8 @@ It focuses on calm visuals, subtle motion, and intentional interaction rather th
 
 Built as a static site with plain HTML, CSS, and JavaScript.
 
+![ClockDock](ClockDock.png)
+
 ---
 
 ## Features
