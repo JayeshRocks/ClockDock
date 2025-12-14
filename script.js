@@ -200,6 +200,17 @@ document.addEventListener("mousemove", (e) => {
   ty = e.clientY;
 });
 
+document.addEventListener(
+  "touchstart",
+  (e) => {
+    if (e.touches.length > 0) {
+      tx = e.touches[0].clientX;
+      ty = e.touches[0].clientY;
+    }
+  },
+  { passive: true }
+);
+
 function animateCursor() {
   x += (tx - x) * 0.15;
   y += (ty - y) * 0.15;
