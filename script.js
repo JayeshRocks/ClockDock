@@ -211,6 +211,18 @@ document.addEventListener(
   { passive: true }
 );
 
+document.addEventListener(
+  "touchmove",
+  (e) => {
+    if (e.touches.length > 0) {
+      e.preventDefault();
+      tx = e.touches[0].clientX;
+      ty = e.touches[0].clientY;
+    }
+  },
+  { passive: false }
+);
+
 function animateCursor() {
   x += (tx - x) * 0.15;
   y += (ty - y) * 0.15;
@@ -314,3 +326,4 @@ if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
   const cursor = document.getElementById("cursor");
   if (cursor) cursor.style.display = "none";
 }
+
