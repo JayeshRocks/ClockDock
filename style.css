@@ -27,17 +27,17 @@ body {
   inset: 0;
   z-index: 0;
   background: radial-gradient(
-      60vw 60vw at 95% 92%,
+      60vmax 60vmax at 95% 92%,
       rgba(180, 40, 40, 0.36),
       transparent 62%
     ),
     radial-gradient(
-      60vw 60vw at 5% 92%,
+      60vmax 60vmax at 5% 92%,
       rgba(180, 40, 40, 0.28),
       transparent 62%
     ),
     radial-gradient(
-      120vw 45vw at 50% 112%,
+      120vmax 45vmax at 50% 112%,
       rgba(160, 35, 35, 0.16),
       transparent 75%
     );
@@ -48,12 +48,12 @@ body {
   position: absolute;
   inset: -45%;
   background: radial-gradient(
-      100vw 100vw at 95% 110%,
+      100vmax 100vmax at 95% 110%,
       rgba(150, 35, 35, 0.18),
       transparent 75%
     ),
     radial-gradient(
-      100vw 100vw at 5% 110%,
+      100vmax 100vmax at 5% 110%,
       rgba(150, 35, 35, 0.16),
       transparent 75%
     );
@@ -65,17 +65,17 @@ body {
   position: absolute;
   inset: -40%;
   background: radial-gradient(
-      80vw 80vw at 90% 95%,
+      80vmax 80vmax at 90% 95%,
       rgba(230, 70, 70, 0.3),
       transparent 70%
     ),
     radial-gradient(
-      80vw 80vw at 10% 95%,
+      80vmax 80vmax at 10% 95%,
       rgba(230, 70, 70, 0.22),
       transparent 70%
     ),
     radial-gradient(
-      140vw 55vw at 50% 120%,
+      140vmax 55vmax at 50% 120%,
       rgba(190, 50, 50, 0.26),
       transparent 75%
     );
@@ -102,7 +102,7 @@ body {
     transform: scale(1);
   }
   50% {
-    transform: scale(1);
+    transform: scale(1.04);
   }
   100% {
     transform: scale(1);
@@ -224,3 +224,4 @@ html,
 body {
   touch-action: none;
 }
+
