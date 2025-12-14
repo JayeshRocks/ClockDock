@@ -56,7 +56,7 @@ The project is fully static and can be hosted on GitHub Pages.
 3. Leave it open  
 
 On desktop, move the cursor near the digits to interact with the clock.  
-On mobile, the experience remains calm and static.
+On touch devices, drag your finger across the screen to interact naturally.
 
 ---
 
