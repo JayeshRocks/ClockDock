@@ -219,3 +219,8 @@ body {
     cursor: default;
   }
 }
+
+html,
+body {
+  touch-action: none;
+}
